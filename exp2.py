@@ -1,8 +1,6 @@
 import random
-
 def display(room):
     print(room)
-
 room = [
     [1, 1, 1, 1],
     [1, 1, 1, 1],
@@ -11,17 +9,14 @@ room = [
 ]
 print("All the rooom are dirty")
 display(room)
-
 x =0
 y= 0
-
 while x < 4:
     while y < 4:
         room[x][y] = random.choice([0,1])
         y+=1
     x+=1
     y=0
-
 print("Before cleaning the room I detect all of these random dirts")
 display(room)
 x =0
