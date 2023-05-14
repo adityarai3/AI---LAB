@@ -61,7 +61,7 @@ while h>0:
         arr = [4, 6, 8]
         state, h = move(arr, pos, state)
     elif pos==8:
-        arr = [5, 6]
+        arr = [5, 7]
         state, h = move(arr, pos, state)
     print("\n------ Level "+str(Level)+" ------")
     print_in_format(state)
